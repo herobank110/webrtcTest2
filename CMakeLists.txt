@@ -10,4 +10,4 @@ CPMAddPackage("gh:paullouisageneau/libdatachannel@0.18.5")
 
 add_executable(WebrtcTest2 main.cpp)
 target_compile_features(WebrtcTest2 PRIVATE cxx_std_20)
-target_link_libraries(WebrtcTest2 libdatachannel)
+# target_link_libraries(WebrtcTest2 libdatachannel)
